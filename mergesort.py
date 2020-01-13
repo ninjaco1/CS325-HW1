@@ -1,5 +1,8 @@
 import random
 import numpy as np
+import time
+import os
+
 def main():
     data = open("data.txt", "r")
     line = data.readlines()
